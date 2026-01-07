@@ -3,9 +3,6 @@ import numpy as np
 from scipy.signal import convolve2d
 
 def load_image(path):
-     """
-    Loads an image from a file path and converts it to a NumPy array.
-    """
     # פתיחת התמונה באמצעות PIL
     img = Image.open(path)
     # המרה למערך NumPy והחזרה

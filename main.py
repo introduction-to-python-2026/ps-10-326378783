@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 from skimage.filters import median
 from skimage.morphology import ball
 
-# ייבוא הפונקציות שכתבנו בקובץ השני
 from image_utils import load_image, edge_detection
 
 def main():
